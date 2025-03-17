@@ -1,0 +1,28 @@
+[package]
+name = "secure_password_manager"
+version = "0.1.0"
+edition = "2021"
+authors = ["Secure Password Manager Team"]
+description = "A secure password manager application built with Rust"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ring = "0.17.5"
+clap = { version = "4.4", features = ["derive"] }
+rand = "0.8.5"
+zeroize = "1.6.0"
+rpassword = "7.2.0"
+anyhow = "1.0.75"
+thiserror = "1.0.50"
+chrono = { version = "0.4.31", features = ["serde"] }
+argon2 = "0.5.2"
+base64 = "0.21.5"
+uuid = { version = "1.6.1", features = ["v4", "serde"] }
+directories = "5.0.1"
+shellexpand = "3.1.0"
+colored = "2.0.4"
+lazy_static = "1.4.0"
+
+[dev-dependencies]
+tempfile = "3.8.0"
