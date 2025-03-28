@@ -100,9 +100,6 @@ The application includes debug log messages that print key operational details (
 
 Contributions are welcome! Please follow standard Rust coding guidelines, write tests for new features, and ensure all tests pass before submitting a pull request.
 
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 
